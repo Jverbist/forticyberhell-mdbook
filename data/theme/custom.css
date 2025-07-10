@@ -1,0 +1,64 @@
+img {
+    display: block;
+    margin: auto;
+    padding: 7px;
+}
+
+.info {
+    background-color: rgba(0, 110, 255, 0.629);
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.purple {
+    background-color: rgba(137, 43, 226, 0.688);
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+.red {
+    background-color: rgba(255, 40, 44, 0.728);
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.green {
+    background-color: rgba(79, 255, 40, 0.524);
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.progress {
+    border: 1rem solid rgba(137, 43, 226, 0.688);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(137, 43, 226, 0.4);
+}
+
+.fancy-button {
+    background-color: rgb(165, 90, 240);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 14px rgba(79, 70, 229, 0.4);
+}
+
+.fancy-button:hover {
+    background-color: rgb(137, 40, 234);
+    transform: scale(1.05);
+}
+
+.fancy-button:active {
+    background-color:  rgb(119, 4, 235);
+    transform: scale(0.98);
+}
